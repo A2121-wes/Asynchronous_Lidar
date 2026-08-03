@@ -1,20 +1,13 @@
 /*
  * GARMIN GPS DIAGNOSTIC SCANNER
- * ==============================
- * This sketch does ONE job: find the correct baud rate and polarity
+ *JOB:
+ * find the correct baud rate and polarity
  * for your Garmin GPS, by trying every combination and showing you
  * the RAW characters it receives.
  *
  * It tries:  4800, 9600, 19200, 38400 baud
  *      x     normal polarity AND inverted polarity
  *      = 8 combinations, ~5 seconds each
- *
- * WHAT TO LOOK FOR IN THE SERIAL MONITOR:
- *   The WINNING combination will show readable text like:
- *       $GPGGA,123519,4807.038,N,01131.000,E,1,08,...
- *       $GPRMC,123519,A,4807.038,N,...
- *   The wrong ones show garbage symbols or nothing.
- *
  * WIRING: only the GPS is needed for this test.
  *   Garmin Red   -> 5V
  *   Garmin Black -> GND
