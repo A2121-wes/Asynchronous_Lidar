@@ -135,7 +135,7 @@ as `/dev/ttyUSB0`–`ttyUSB2`. **`/dev/ttyUSB1` is the active command and data p
 
 ---
 
-## Critical configuration notes
+## IMPORTANT NOTICE!!!
 
 These two findings cost significant debugging time and are not obvious from the
 documentation. They are recorded here so they need not be rediscovered.
